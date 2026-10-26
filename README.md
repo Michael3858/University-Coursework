@@ -7,6 +7,7 @@
 | 課程 | 內容 | 使用技術 |
 |---|---|---|
 | [網頁設計](webp/README.md) | 介紹頁、打字遊戲、API 串接與 React 元件練習 | HTML、CSS、JavaScript、jQuery、React |
+| [行動裝置程式設計](mobile-programming/README.md) | CH01～CH08 Android 練習與飲料點餐期末作業 | Java、XML、Android Studio |
 | [物聯網](iot-alarm/README.md) | 超音波測距、LCD 顯示與 LED 警示 | ESP8266、MicroPython |
 | [微算機實驗](microcontroller-labs/README.md) | 按鍵與 LED 控制、計時器、GLCD 貪食蛇 | C、組合語言、C8051F040 |
 | [FPGA 實驗](fpga-labs/README.md) | 邏輯電路、雙人骰子遊戲與資料路徑 | Verilog、Quartus |

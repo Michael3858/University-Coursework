@@ -25,3 +25,11 @@ __pycache__/
 *.jks
 *.keystore
 *.hprof
+
+# C/C++ 編譯產物
+*.exe
+*.o
+*.obj
+*.out
+*.pdb
+*.ilk

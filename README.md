@@ -15,7 +15,7 @@
 | [多媒體資訊概論](multimedia-labs/README.md) | WAV 聲音產生、邊緣偵測、影像對比增強與假色圖 | C++、Python、OpenCV |
 | [計算機架構](computer-architecture-labs/README.md) | MIPS 指令解析與機器碼欄位編碼 | C++ |
 | [計算機網路](cpp-http-downloader/README.md) | HTTP 網頁與圖片下載 | C++、Winsock |
-| [C++ 與資料結構](cpp-coursework/README.md) | 遞迴、指標、文字對齊與排序效能比較 | C++ |
+| [C++ 與資料結構](cpp-coursework/README.md) | 大一上下 Lab、遞迴、指標、文字對齊與排序效能比較 | C++ |
 | [MATLAB 練習](matlab-labs/README.md) | 矩陣、求根、數值積分與傅立葉級數 | MATLAB |
 
 各資料夾的 README 列有作業內容、主要檔案與開發環境。

@@ -1,12 +1,13 @@
 # 大學課程作業與專題
 
-收錄我在大學期間的程式作業、實驗與專題，包含網頁設計、微控制器、FPGA、平行程式與影像處理等課程。
+收錄我在大學期間的程式作業、實驗與專題，包含網頁設計、微控制器、物聯網、FPGA、平行程式與影像處理等課程。
 
 ## 課程內容
 
 | 課程 | 內容 | 使用技術 |
 |---|---|---|
 | [網頁設計](webp/README.md) | 介紹頁、打字遊戲、API 串接與 React 元件練習 | HTML、CSS、JavaScript、jQuery、React |
+| [物聯網](iot-alarm/README.md) | 超音波測距、LCD 顯示與 LED 警示 | ESP8266、MicroPython |
 | [微算機實驗](microcontroller-labs/README.md) | 按鍵與 LED 控制、計時器、GLCD 貪食蛇 | C、組合語言、C8051F040 |
 | [FPGA 實驗](fpga-labs/README.md) | 邏輯電路、雙人骰子遊戲與資料路徑 | Verilog、Quartus |
 | [平行程式設計](parallel-programming-labs/README.md) | 程序間通訊、平行計算 π 與耗時比較 | C、MPI、OpenMP |

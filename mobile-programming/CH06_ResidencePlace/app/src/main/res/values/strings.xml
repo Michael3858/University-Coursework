@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">CH06_ResidencePlace</string>
+    <string-array name="area">
+        <item>北部</item>
+        <item>中部</item>
+        <item>南部</item>
+        <item>東部</item>
+    </string-array>
+</resources>

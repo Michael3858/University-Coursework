@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">CH06_ElectricityFeeComputer</string>
+    <string-array name="v">
+        <item>110V</item>
+        <item>220V</item>
+    </string-array>
+</resources>

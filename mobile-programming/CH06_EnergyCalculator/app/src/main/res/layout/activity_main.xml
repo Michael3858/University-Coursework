@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffe0"
+    tools:context=".MainActivity">
+
+    <Spinner
+        android:id="@+id/sports"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="24dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:entries="@array/sports"/>
+
+    <TextView
+        android:id="@+id/txv1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="消耗能量(仟卡/公斤/小時)："
+        android:textSize="20sp"
+        android:background="#AAAAAA"
+        app:layout_constraintTop_toBottomOf="@+id/sports"
+        android:layout_marginTop="16dp"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginLeft="16dp"/>
+
+    <TextView
+        android:id="@+id/txv2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="輸入體重(公斤)："
+        android:textSize="20sp"
+        app:layout_constraintTop_toBottomOf="@+id/txv1"
+        android:layout_marginTop="24dp"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginLeft="16dp"/>
+
+    <TextView
+        android:id="@+id/txv3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="輸入運動時間(小時)："
+        android:textSize="20sp"
+        app:layout_constraintTop_toBottomOf="@+id/txv2"
+        android:layout_marginTop="24dp"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginLeft="16dp"/>
+
+    <TextView
+        android:id="@+id/txvRate"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:background="#AAAAAA"
+        app:layout_constraintBottom_toBottomOf="@+id/txv1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/txv1"
+        app:layout_constraintStart_toEndOf="@+id/txv1"
+        android:layout_marginLeft="0dp"
+        android:layout_marginEnd="16dp"/>
+
+    <EditText
+        android:id="@+id/weight"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:inputType="numberDecimal"
+        app:layout_constraintBottom_toBottomOf="@+id/txv2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/txv2"
+        app:layout_constraintStart_toEndOf="@+id/txv2"
+        android:layout_marginLeft="0dp"
+        android:layout_marginEnd="16dp"/>
+
+    <EditText
+        android:id="@+id/timeSpan"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:inputType="numberDecimal"
+        app:layout_constraintBottom_toBottomOf="@+id/txv3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/txv3"
+        app:layout_constraintStart_toEndOf="@+id/txv3"
+        android:layout_marginLeft="0dp"
+        android:layout_marginEnd="16dp"/>
+
+    <Button
+        android:id="@+id/btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="計算"
+        android:onClick="calc"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txv3"
+        android:layout_marginTop="24dp"/>
+
+    <TextView
+        android:id="@+id/total"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0"
+        android:textSize="30sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn"
+        android:layout_marginTop="8dp"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

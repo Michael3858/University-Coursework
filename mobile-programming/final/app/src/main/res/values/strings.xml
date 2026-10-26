@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">final</string>
+    <string-array name="drink">
+        <item>水果茶(70元)</item>
+        <item>珍珠奶茶(55元)</item>
+        <item>抹茶拿鐵(60元)</item>
+        <item>香草奶昔(65元)</item>
+        <item>甘草汁(40元)</item>
+    </string-array>
+    <string-array name="choose">
+        <item>內用</item>
+        <item>外帶</item>
+    </string-array>
+</resources>

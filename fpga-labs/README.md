@@ -28,5 +28,3 @@
 ## 開發環境
 
 專案設定記錄為 Quartus Prime Lite 20.1.1，依作業分別使用 Cyclone V 或 Cyclone IV E 晶片；實際型號與腳位以各資料夾的 `.qsf` 為準。
-
-`final/final.v` 是尚未完成的整合練習，部分控制訊號與資料路徑連接仍需補齊。

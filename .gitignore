@@ -1,0 +1,27 @@
+# 系統與編輯器暫存
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+.vs/
+
+# 本機設定與套件
+.env
+.env.*
+!.env.example
+node_modules/
+__pycache__/
+
+# 物聯網裝置的私人連線設定
+/iot-alarm/config.py
+/iot-alarm/config.mpy
+
+# Android 課程的本機設定與建置產物
+.gradle/
+**/local.properties
+**/build/
+*.apk
+*.aab
+*.jks
+*.keystore
+*.hprof
